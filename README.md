@@ -6,6 +6,12 @@ Since the dataset is so large and I am only interested in the top 25 most popula
 
 The two code scripts will be included in the repo and you can downloaded them to reproduce what I have down.
 
+## Files
+
+- **createBusiness.py**: this file helps you to construct a SQLite database with table Business
+- **top25Map.py**: this file helps you to make the interactive map as restaurantMap.html
+- **restaurantMap.html**: the interactive map, where you can zoom in and out and if you click on the circle, the name of the restaurant will pop up.
+
 ## Notice
 
 You have to install [*folium*] package for the Python, which can help you draw interactive maps based on Leaflet, one Javascript mapping tool. If you want to download this package, just type the following codes in the bash.
